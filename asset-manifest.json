@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pallavikedar/profile.git/static/css/main.f855e6bc.css",
-    "main.js": "/pallavikedar/profile.git/static/js/main.61c44913.js",
-    "static/media/profile.jpeg": "/pallavikedar/profile.git/static/media/profile.263a5fce16e3a800243f.jpeg",
-    "index.html": "/pallavikedar/profile.git/index.html",
-    "main.f855e6bc.css.map": "/pallavikedar/profile.git/static/css/main.f855e6bc.css.map",
-    "main.61c44913.js.map": "/pallavikedar/profile.git/static/js/main.61c44913.js.map"
+    "main.css": "/profile.git/static/css/main.f855e6bc.css",
+    "main.js": "/profile.git/static/js/main.d2cae886.js",
+    "static/media/profile.jpeg": "/profile.git/static/media/profile.263a5fce16e3a800243f.jpeg",
+    "index.html": "/profile.git/index.html",
+    "main.f855e6bc.css.map": "/profile.git/static/css/main.f855e6bc.css.map",
+    "main.d2cae886.js.map": "/profile.git/static/js/main.d2cae886.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.61c44913.js"
+    "static/js/main.d2cae886.js"
   ]
 }
