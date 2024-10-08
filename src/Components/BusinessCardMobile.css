@@ -1,0 +1,168 @@
+/* Card container */
+.card-container {
+    background-color: #ffff;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  .icon-link {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  /* Icon colors for different brands */
+  .icon-link.telephone {
+    color: #4caf50; /* Green for telephone */
+  }
+  
+  .icon-link.whatsapp {
+    color: #25D366; /* WhatsApp green */
+  }
+  
+  .icon-link.email {
+    color: #D44638; /* Gmail red */
+  }
+  
+  .icon-link.facebook {
+    color: #4267B2; /* Facebook blue */
+  }
+  
+  .icon-link.instagram {
+    color: #E1306C; /* Instagram pink/purple */
+  }
+  
+  .icon-link.linkedin {
+    color: #0e76a8; /* LinkedIn blue */
+  }
+  
+  .icon-link.youtube {
+    color: #FF0000; /* YouTube red */
+  }
+  
+  .icon-link.google {
+    color: #4285F4; /* Google blue */
+  }
+  
+  .icon-link.map {
+    color: #34A853; /* Google Maps green */
+  }
+  
+  /* Profile section */
+  .profile-container {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Assets/bg\ image.jpg'); /* Replace with your image path */
+   
+ 
+    background-position: center;
+    width: 100%;
+    height: 160px;
+   
+  }
+  
+  .profile {
+    margin-bottom: 20px;
+    margin-left: -19px;
+    margin-top: -20px;
+    width: 44%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+  .profile-image {
+    border-radius: 50%;
+    width: 116px;
+    height: 114px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+    border: 4px solid #ffff;
+}
+  
+  /* Name, position, company */
+  .name {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #024763;
+}
+.position {
+    font-size: 15px;
+    color: #566c76;
+    font-weight: 500;
+    margin: 5px 0;
+}
+  
+  .company {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  /* Save button */
+  .save-button {
+    padding: 5px;
+    background-color: #11101000;
+    color: #043b5b;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #023a58;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+}
+  
+  /* Icon container */
+  .icon-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 44px;
+    margin-top: 10px;
+  }
+  .Contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  /* Icon styling */
+  .icon-link {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+ 
+  .icon-wrapper{
+    background-color: #ffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 70px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+
+  }
+  .icon-link .icon1{
+    color: #747474 ;
+    font-size: 30px;
+
+  }
+  
+  .icon {
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
