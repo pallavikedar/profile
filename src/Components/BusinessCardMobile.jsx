@@ -26,14 +26,14 @@ const BusinessCardMobile = () => {
          
         </div>
       </div>
-      <div>
-      <h4 style={{textAlign:"left",color:"#015c8b"}}>About</h4>
-      <p style={{fontSize:"10px",textAlign:"left",color:"rgb(104 117 124)"}}>CEO AND Founder of Techgicus Software Solution PVT. LTD. and this company build customize software and serve software service </p>
+      <div style={{paddingLeft:"10px"}}>
+      <h3 style={{textAlign:"left",color:"#015c8b"}}>About</h3>
+      <p style={{fontSize:"16px",textAlign:"left",color:"rgb(104 117 124)"}}>CEO AND Founder of Techgicus Software Solution PVT. LTD. and this company build customize software and serve software service </p>
 
       </div>
 
       {/* Icon Section */}
-      <h4 style={{textAlign:"left",color:"#015c8b"}}>Social Links</h4>
+      <h3 style={{textAlign:"left",color:"#015c8b",paddingLeft:"10px"}}>Social Links</h3>
       <div className="icon-container">
       
     
@@ -45,7 +45,7 @@ const BusinessCardMobile = () => {
       <a href="https://youtube.com/@techgicus6310?si=nWvilPdl8D7HnCO1" target="_blank" rel="noopener noreferrer" className="icon-link youtube"><FaYoutube className="icon" /></a>
    
       </div>
-      <h4 style={{textAlign:"left",color:"#015c8b"}}>Quick Contact</h4>
+      <h3 style={{textAlign:"left",color:"#015c8b",paddingLeft:"10px"}}>Quick Contact</h3>
       <div className="Contact-container">
       
       <div className="icon-wrapper" >
