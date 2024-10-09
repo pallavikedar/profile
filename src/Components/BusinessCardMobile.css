@@ -96,18 +96,21 @@
     margin: 10px 0;
     font-weight: bold;
     color: #024763;
+    font-family: "Afacad Flux", sans-serif;
 }
 .position {
     font-size: 15px;
     color: #566c76;
     font-weight: 500;
     margin: 5px 0;
+    font-family: "Afacad Flux", sans-serif;
 }
   
   .company {
     font-size: 0.9em;
     color: #777;
     margin-bottom: 15px;
+    font-family: "Afacad Flux", sans-serif;
   }
   
   /* Save button */
@@ -121,6 +124,7 @@
     cursor: pointer;
     font-size: 15px;
     margin-top: 20px;
+    font-family: "Afacad Flux", sans-serif;
 }
   
   /* Icon container */
@@ -155,7 +159,7 @@
     margin: 0 auto;
     text-align: center;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    font-family: 'Arial', sans-serif;
+    font-family: "Afacad Flux", sans-serif;
 
   }
   .icon-link .icon1{
@@ -168,4 +172,30 @@
     font-size: 1.5em;
     transition: color 0.3s;
   }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
   
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide {
+    width: 80%;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
