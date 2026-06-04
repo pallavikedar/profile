@@ -199,3 +199,313 @@
   .swiper-slide:nth-child(3n) {
     width: 40%;
   }
+  /* ============================================================
+   REAL ESTATE PREMIUM SERVICES — Add these rules to
+   your existing BusinessCardMobile.css
+   ============================================================ */
+
+/* ── Section wrapper ───────────────────────────────────────── */
+.realestate-section {
+  margin: 18px 10px 10px;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+/* ── Header block ──────────────────────────────────────────── */
+.realestate-header {
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.realestate-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #015c8b, #0288c7);
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+
+.realestate-title {
+  color: #015c8b;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 3px;
+  line-height: 1.2;
+}
+
+.realestate-subtitle {
+  color: #6b8fa5;
+  font-size: 12px;
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+/* ── Service cards ─────────────────────────────────────────── */
+.re-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 20px rgba(1, 92, 139, 0.12);
+  border: 1px solid rgba(1, 92, 139, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.re-card:active {
+  transform: scale(0.99);
+}
+
+/* ── Image wrapper ─────────────────────────────────────────── */
+.re-card__image-wrap {
+  position: relative;
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+}
+
+.re-card__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Gradient overlay on image */
+.re-card__img-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.08) 0%,
+    rgba(1, 40, 65, 0.45) 100%
+  );
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 10px 12px;
+}
+
+.re-card__img-overlay--dark {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.05) 0%,
+    rgba(0, 30, 20, 0.55) 100%
+  );
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 12px;
+}
+
+/* ── LIVE pill (Map card) ──────────────────────────────────── */
+.re-card__live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #015c8b;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  padding: 4px 9px;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+}
+
+.re-card__live-dot {
+  width: 6px;
+  height: 6px;
+  background: #e53935;
+  border-radius: 50%;
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.2; }
+}
+
+/* ── 360° badge ────────────────────────────────────────────── */
+.re-card__badge-360 {
+  background: linear-gradient(135deg, #1b8a4f, #27ae60);
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 900;
+  padding: 6px 14px;
+  border-radius: 10px;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  box-shadow: 0 3px 12px rgba(27, 138, 79, 0.5);
+}
+
+/* ── Card body ─────────────────────────────────────────────── */
+.re-card__body {
+  padding: 14px 14px 16px;
+}
+
+.re-card__icon-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 9px;
+}
+
+.re-card__icon-circle {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #e3f4fd, #b8e7ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #015c8b;
+}
+
+.re-card__icon-circle--green {
+  background: linear-gradient(135deg, #e3f9ec, #b2edcb);
+  color: #1b8a4f;
+}
+
+.re-card__name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #013a57;
+  margin: 0 0 2px;
+  line-height: 1.2;
+}
+
+.re-card__tag {
+  font-size: 11px;
+  color: #0288c7;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+.re-card--360 .re-card__tag {
+  color: #1b8a4f;
+}
+
+.re-card__desc {
+  font-size: 13px;
+  color: #5a7080;
+  line-height: 1.55;
+  margin: 0 0 12px;
+}
+
+/* ── Feature pills ─────────────────────────────────────────── */
+.re-card__features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.re-card__feat {
+  background: #eaf6ff;
+  color: #015c8b;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 9px;
+  border-radius: 20px;
+  border: 1px solid rgba(1, 92, 139, 0.15);
+}
+
+.re-card__feat--green {
+  background: #eafaf2;
+  color: #1b8a4f;
+  border-color: rgba(27, 138, 79, 0.15);
+}
+
+/* ── Bottom CTA strip ──────────────────────────────────────── */
+.re-cta-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #013a57 0%, #015c8b 100%);
+  border-radius: 14px;
+  padding: 14px 16px;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.re-cta-strip__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.re-cta-strip__headline {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.re-cta-strip__sub {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 10px;
+  line-height: 1.3;
+}
+
+.re-cta-strip__btn {
+  background: linear-gradient(135deg, #27ae60, #1b8a4f);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+  box-shadow: 0 3px 10px rgba(27, 138, 79, 0.4);
+  transition: opacity 0.2s;
+}
+
+.re-cta-strip__btn:active {
+  opacity: 0.85;
+}
+
+/* ===== REAL ESTATE CRM ===== */
+.re-crm-section { padding: 12px 0 0; margin-top: 16px; border-top: 1px solid #cce8f6; }
+.re-crm-title { color: #015c8b; font-size: 17px; font-weight: 600; margin: 0 0 2px; text-align: left; }
+.re-crm-subtitle { color: #7a8fa6; font-size: 13px; margin: 0 0 12px; }
+
+.re-crm-pipeline-wrap { background: #e0f2fe; border-radius: 12px; padding: 10px 12px; margin-bottom: 12px; border: 1px solid #bae6fd; }
+.re-crm-pipeline-label { font-size: 11px; color: #0369a1; font-weight: 600; margin: 0 0 8px; }
+.re-crm-pipeline { display: flex; overflow-x: auto; }
+.re-crm-stage { flex: 1; min-width: 58px; text-align: center; position: relative; }
+.re-crm-stage__dot { width: 28px; height: 28px; border-radius: 50%; background: #fff; border: 1px solid #bae6fd; display: flex; align-items: center; justify-content: center; font-size: 13px; margin: 0 auto 4px; }
+.re-crm-stage__label { font-size: 10px; color: #4a6a82; font-weight: 500; }
+.re-crm-stage__count { font-size: 11px; font-weight: 700; color: #015c8b; }
+.re-crm-stage::after { content: "→"; position: absolute; right: -4px; top: 6px; font-size: 13px; color: #aac8db; }
+.re-crm-stage:last-child::after { display: none; }
+
+.re-crm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+.re-crm-card { background: #fff; border: 1px solid #cce8f6; border-radius: 12px; padding: 12px; }
+.re-crm-card__icon { width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; margin-bottom: 8px; }
+.re-crm-card__icon--blue   { background: #e0f2fe; }
+.re-crm-card__icon--green  { background: #dcfce7; }
+.re-crm-card__icon--amber  { background: #fef9c3; }
+.re-crm-card__icon--purple { background: #ede9fe; }
+.re-crm-card__icon--teal   { background: #ccfbf1; }
+.re-crm-card__icon--coral  { background: #ffe4e6; }
+.re-crm-card__name { font-size: 13px; font-weight: 600; color: #0c3e5a; margin: 0 0 4px; }
+.re-crm-card__desc { font-size: 11.5px; color: #6b8194; margin: 0 0 8px; line-height: 1.4; }
+.re-crm-card__tags { display: flex; flex-wrap: wrap; gap: 4px; }
+
+.re-crm-tag { font-size: 10px; background: #e8f4fb; color: #015c8b; border-radius: 20px; padding: 2px 7px; font-weight: 500; }
+.re-crm-tag--green  { background: #dcfce7; color: #166534; }
+.re-crm-tag--amber  { background: #fef9c3; color: #92400e; }
+.re-crm-tag--purple { background: #ede9fe; color: #4c1d95; }
+.re-crm-tag--teal   { background: #ccfbf1; color: #134e4a; }
+.re-crm-tag--coral  { background: #ffe4e6; color: #9f1239; }
+
+.re-crm-strip { background: linear-gradient(135deg, #015c8b 0%, #0284c7 100%); border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.re-crm-strip__text { display: flex; flex-direction: column; }
+.re-crm-strip__title { font-size: 13px; font-weight: 600; color: #fff; }
+.re-crm-strip__sub { font-size: 11px; color: rgba(255,255,255,0.8); margin-top: 2px; }
+.re-crm-strip__btn { background: #fff; color: #015c8b; border-radius: 8px; padding: 7px 12px; font-size: 12px; font-weight: 600; white-space: nowrap; text-decoration: none; }
